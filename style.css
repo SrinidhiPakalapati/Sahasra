@@ -1,0 +1,25 @@
+body{
+  background-image: url("background.png");
+  background-repeat: repeat;
+  background-size: 480px auto;
+  background-attachment: fixed;
+}
+.love-ya-like-a-sister-regular {
+  font-family: "Love Ya Like A Sister", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.main{
+    border: 10px;
+    margin: 2rem;
+    background: rgba(255, 255, 255, 0.4);
+
+    border-radius: 10px;
+    padding: 26px 22px;
+    border: 1.5px solid #F0BFCB;
+}
+.main h1{
+    font-family: Love Ya Like A Sister;
+    text-align: center;
+    color:#C4677E;
+}

@@ -4,22 +4,32 @@ body{
   background-size: 480px auto;
   background-attachment: fixed;
 }
-.love-ya-like-a-sister-regular {
-  font-family: "Love Ya Like A Sister", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
+
 .main{
     border: 10px;
-    margin: 2rem;
+    margin: 1.2rem;
     background: rgba(255, 255, 255, 0.4);
-
     border-radius: 10px;
-    padding: 26px 22px;
-    border: 1.5px solid #F0BFCB;
+    padding: 26px;
+    border: 2px solid #F0BFCB;
 }
 .main h1{
     font-family: Love Ya Like A Sister;
+    font-size: clamp(2rem, 9vw, 3.5rem);
     text-align: center;
     color:#C4677E;
+}
+.photos{
+  border: 10px;
+  margin:1.2rem;
+  background: rgba(225, 225, 225, 0.4);
+  border-radius: 10px;
+  padding: 26px;
+  border: 2px solid #F0BFCB;
+}
+@media (min-width: 700px){
+  .main, .photos{
+    max-width: 640px;
+    margin: 2rem auto;
+  }
 }

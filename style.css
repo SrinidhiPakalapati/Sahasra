@@ -37,8 +37,13 @@ body{
   margin:1.2rem;
   background: rgba(225, 225, 225, 0.4);
   border-radius: 10px;
-  padding: 26pc;
+  padding:1rem;
   border: 2px solid #F0BFCB;
+}
+
+.note h1,h3,p{
+  font-family: Love Ya Like A Sister;
+  color:#574750
 }
 @media (min-width: 700px){
   .main, .photos, .note{

@@ -31,8 +31,17 @@ body{
   width: 100%;
   border-radius: 10px;
 }
+
+.note{
+  border: 10px;
+  margin:1.2rem;
+  background: rgba(225, 225, 225, 0.4);
+  border-radius: 10px;
+  padding: 26pc;
+  border: 2px solid #F0BFCB;
+}
 @media (min-width: 700px){
-  .main, .photos{
+  .main, .photos, .note{
     max-width: 640px;
     margin: 2rem auto;
   }
